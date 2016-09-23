@@ -1,0 +1,7 @@
+{
+    // Path to the PHPUnit executable
+	"phpunit_executable": "phpunit",
+
+    // Full path to PHPUnit XLM configuration file
+    "phpunit_xml_config_file": ""
+}

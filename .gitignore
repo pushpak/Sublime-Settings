@@ -1,0 +1,27 @@
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+
+# Ignore everything
+*
+
+#except
+!Packages/*
+Packages/*
+!Packages/SimplePHPUnit/*
+!Packages/User/*
+
+# Ignore folder
+Packages/User/Package Control*
+Packages/User/*.crt
+
+# But not these files...
+!.gitignore
+!LICENSE
+
+!*.sublime-settings
+!*.sublime-keymap
+!*.sublime-mousemap
+!*.sublime-build
+!*.sublime-snippet
+!*.xml

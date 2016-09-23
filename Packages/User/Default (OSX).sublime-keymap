@@ -1,0 +1,20 @@
+[
+	// Origami (Multiple Panes)
+	{ "keys": ["super+m", "up"], "command": "travel_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["super+m", "right"], "command": "travel_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["super+m", "down"], "command": "travel_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["super+m", "left"], "command": "travel_to_pane", "args": {"direction": "left"} },
+	{ "keys": ["super+m", "super+right"], "command": "create_pane", "args": {"direction": "right", "give_focus": true} },
+	{ "keys": ["super+m", "super+d"], "command": "destroy_pane", "args": {"direction": "self"} },
+
+	// PHP Companian
+	{ "keys": ["f9"], "command": "find_use" },
+	{ "keys": ["f10"], "command": "expand_fqcn" },
+	{ "keys": ["super+shift+o"], "command": "goto_definition_scope" },
+	{ "keys": ["f8"], "command": "insert_php_constructor_property" },
+	{ "keys": ["f7"], "command": "import_namespace" },
+
+	// Simple PHPUnit
+	{ "keys": ["super+ctrl+alt+t"], "command": "simple_php_unit" },
+	{ "keys": ["super+alt+t"], "command": "simple_php_unit", "args": { "test_current_file": true } }
+]

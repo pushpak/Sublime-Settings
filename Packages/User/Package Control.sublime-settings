@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"DocBlockr",
+		"EditorConfig",
+		"Fix Mac Path",
+		"GitGutter",
+		"Laravel 5 Artisan",
+		"Material Theme",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"PHP Companion",
+		"PHP Getters and Setters",
+		"SublimeLinter",
+		"SublimeLinter-php"
+	]
+}
